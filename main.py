@@ -109,10 +109,10 @@ def generate_prompt():
     prompt += " in a modern, legible font. "
     print(prompt)
 
-    image_prompts,image_urls,captions=generate_advertisement(prompt, number_of_images=1)
+    image_prompts,image_urls,captions=generate_advertisement(prompt, number_of_images=5)
 
     # Display the images and captions
-    for i in range(1):
+    for i in range(5):
         print("Set ", i+1, ":\n")
         print("Image prompt (debug): ", image_prompts[i])
         print("Image url: ", image_urls[i])
