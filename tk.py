@@ -120,7 +120,7 @@ def generate_prompt():
 
 master = tk.Tk()
 
-fields = ["Name of product", "Product description", "Key selling points", "Target audience", "Design style", "Captions"]
+fields = ["Name of product", "Product description", "Key selling points", "Target audience", "Image design style", "Headlines"]
 
 for i in range(len(fields)):
     tk.Label(master, text=fields[i]).grid(row=i)
